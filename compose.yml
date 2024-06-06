@@ -1,0 +1,12 @@
+services:
+  checker:
+    build: .
+    command: ./entrypoint.sh
+    environment:
+      NODE_ENV: development
+      EXPECTED_BASE_URL:
+      ACTUAL_BASE_URL:
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"

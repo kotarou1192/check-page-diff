@@ -1,0 +1,2 @@
+export EXPECTED_BASE_URL="https://example.com/e/"
+export ACTUAL_BASE_URL="https://example.com/a/"
